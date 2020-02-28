@@ -1,6 +1,9 @@
 ## Can We Use Split Learning on 1D CNN for Privacy Preserving Training?
 
-**Note:** the full source code will be released once the paper is published.
+**Note:** this repo contains our implementation for our ACM ASIACCS 2020 paper below. Please if you find it useful, use the below citation to cite our paper.
+
+Sharif Abuadbba, Kyuyeon Kim, Minki Kim, Chandra Thapa, Seyit A. Camtepe, Yansong Gao, Hyoungshick Kim, Surya Nepal, ‘Can We Use Split Learning on 1D CNN Models for Privacy Preserving Training?’, The 15th ACM ASIA Conference on Computer and Communications Security (ACM ASIACCS 2020), Taipei, Taiwan, from June 1st to June 5th, 2020
+
 
 **Available Now:**
 - Our 1D CNN split learning models with their accuracy results.
@@ -25,3 +28,5 @@
   - `adding_layers` directory: measure distance correlation with different number of convolutional layers.
   - `diffpriv` directory: measure DTW with different strength of differential privacy on split layer.
 - `mitdb` directory: has **preprocessed train and test data** in `hdf5` format.
+
+
